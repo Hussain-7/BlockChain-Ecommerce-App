@@ -1,2 +1,0 @@
-erc 20 tokens are basically assets that live on the ethereum blockchain for each erc2o token
-we have smart contracts that manages ledgers and 
