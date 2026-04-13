@@ -1,12 +1,35 @@
-For Project Initialization
-=========================================
-Install truffle with `install -g truffle`
+# BlockChain Ecommerce App
 
-## To Initial project
-### truffle init 
-### npm init -y
-##3 npm install @openzeppelin/contracts
+A blockchain-powered ecommerce demo that combines Solidity smart contracts, a backend service, and a storefront experience.
 
-## For Deployement of smart contracts
-### truffle develop
-### migrate --reset
+## Project Structure
+
+- `contracts/` - Solidity contracts including payment processing logic
+- `migrations/` - Truffle deployment scripts
+- `backend/` - Server-side application code
+- `frontend/` - Client application for the store experience
+
+## Getting Started
+
+### Install dependencies
+
+```bash
+npm install
+cd backend && npm install
+cd ../frontend && npm install
+```
+
+### Smart contract workflow
+
+```bash
+npx truffle develop
+npx truffle migrate --reset
+```
+
+### Run the app
+
+Start the backend and frontend from their respective directories after installing dependencies.
+
+## License
+
+MIT
